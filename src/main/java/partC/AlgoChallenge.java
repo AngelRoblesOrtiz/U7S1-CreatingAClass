@@ -18,8 +18,14 @@ public class AlgoChallenge {
      */
 
     public static Boolean oneTeen(int person1, int person2) {
+        boolean response = false;
+        if ((13 <= person1 && person1 <= 19) && (13 <= person2 && person2 <= 19)) {
+            response = false;
+        } else {
+            response = true;
+        }
 
-        return null;
+        return response;
     }
 
 
@@ -37,8 +43,20 @@ public class AlgoChallenge {
      */
 
     public static String beginWithOz(String ounces) {
+        String response = "";
+        String char1 = ounces.substring(0, 1);
+        String char2 = ounces.substring(1, 2);
 
-        return null;
+        if (char1.equals("o")) {
+            response += char1;
+            if (char2.equals("z")) {
+                response += char2;
+            }
+        } else if (char2.equals("z")) {
+            response += char2;
+        }
+
+        return response;
     }
 
 }

@@ -1,11 +1,9 @@
 package partB.factories;
 
-
 import partB.animals.Cat;
 import partB.storage.CatHouse;
 import partB.storage.DogHouse;
 import partB.animals.Dog;
-
 import java.util.Date;
 
 public class AnimalFactory {

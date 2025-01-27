@@ -1,6 +1,5 @@
 package partB.storage;
 
-
 import partB.animals.Cat;
 
 public class CatHouse {

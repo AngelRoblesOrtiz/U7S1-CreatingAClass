@@ -1,6 +1,5 @@
 package partB.animals;
 
-
 import java.util.Date;
 
 public class Cat extends Mammal {
